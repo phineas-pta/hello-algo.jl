@@ -1,6 +1,6 @@
 # hello-algo.jl
 
-Julia implementation of hello-algo project (Data Structures and Algorithms crash course)
+Julia implementation of `hello-algo` project (Data Structures and Algorithms crash course)
 
 ![](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-green?logo=creativecommons)
 ![](https://img.shields.io/badge/Julia-snow?logo=julia&logoColor=9558B2)
@@ -22,7 +22,7 @@ chapters:
 - [x] chap 07: tree
 - [x] chap 08: heap
 - [x] chap 09: graph
-- [ ] chap 10: searching
+- [x] chap 10: searching
 - [ ] chap 11: sorting
 - [ ] chap 12: divide &amp; conquer
 - [ ] chap 13: backtracking
