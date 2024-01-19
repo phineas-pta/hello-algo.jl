@@ -27,7 +27,7 @@ chapters:
 - [x] chap 12: divide &amp; conquer
 - [ ] chap 13: backtracking
 - [ ] chap 14: dynamic programming
-- [ ] chap 15: greedy algo
+- [x] chap 15: greedy algo
 - [x] chap 16 (no code): appendix
 - [x] chap 17 (no code): reference
 
