@@ -24,7 +24,7 @@ chapters:
 - [x] chap 09: graph
 - [x] chap 10: searching
 - [ ] chap 11: sorting
-- [ ] chap 12: divide &amp; conquer
+- [x] chap 12: divide &amp; conquer
 - [ ] chap 13: backtracking
 - [ ] chap 14: dynamic programming
 - [ ] chap 15: greedy algo
