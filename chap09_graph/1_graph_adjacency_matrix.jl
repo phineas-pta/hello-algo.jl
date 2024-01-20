@@ -8,6 +8,9 @@ import .utils: print_matrix
 struct GraphAdjMat
 	vertices::Vector{Int}  # 顶点列表，元素代表“顶点值”，索引代表“顶点索引”
 	adj_mat::Vector{Vector{Int}}  # 邻接矩阵，行列索引对应“顶点索引”
+	# use vector of vectors instead of matrix
+	# coz a lot of operations here are row-wise
+	# meanwhile julia matrix is more efficient column-wise
 
 	"""构造方法"""
 	function GraphAdjMat(vertices::Vector{Int}, edges::Vector{Vector{Int}})
