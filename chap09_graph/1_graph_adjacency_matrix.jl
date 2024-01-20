@@ -11,7 +11,7 @@ struct GraphAdjMat
 
 	"""构造方法"""
 	function GraphAdjMat(vertices::Vector{Int}, edges::Vector{Vector{Int}})
-		graph = new(Int[], Vector{Int}[])
+		graph = new(Int[], Vector{Vector{Int}}())
 		for val ∈ vertices  # 添加顶点
 			add_vertex!(graph, val)
 		end

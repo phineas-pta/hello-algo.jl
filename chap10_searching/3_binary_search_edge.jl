@@ -31,8 +31,8 @@ if abspath(PROGRAM_FILE) == @__FILE__
 	println("\n数组 nums = ", nums)
 	for target ∈ [6, 7]  # 二分查找左边界和右边界
 		index = binary_search_left_edge(nums, target)
-		print("最左一个元素 $target 的索引为 $index")
+		println("最左一个元素 $target 的索引为 $index")
 		index = binary_search_right_edge(nums, target)
-		print("最右一个元素 $target 的索引为 $index")
+		println("最右一个元素 $target 的索引为 $index")
 	end
 end

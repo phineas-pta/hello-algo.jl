@@ -100,17 +100,17 @@ if abspath(PROGRAM_FILE) == @__FILE__
 
 	# 查找节点
 	node = search(bst, 7)
-	print("\n查找到的节点对象为: ", node, " ，节点值 = ", node.val)
+	println("\n查找到的节点对象为: ", node, " ，节点值 = ", node.val)
 
 	# 插入节点
 	bst = insert(bst, 16)
-	print("\n插入节点 16 后，二叉树为\n")
+	println("\n插入节点 16 后，二叉树为\n")
 	print_tree(bst)
 
 	# 删除节点
 	for num ∈ [1, 2, 4]
 		global bst = remove(bst, num)
-		print("\n删除节点 $num 后，二叉树为\n")
+		println("\n删除节点 $num 后，二叉树为\n")
 		print_tree(bst)
 	end
 end

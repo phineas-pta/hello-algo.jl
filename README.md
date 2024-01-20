@@ -9,7 +9,9 @@ original: https://github.com/krahets/hello-algo/tree/main/codes
 
 all folders and files are numbered (not the case in original repo)
 
-TODO: open PR to orginal repo
+TODO:
+- [ ] verify output to match python/js/java/c++ code
+- [ ] open PR to orginal repo
 
 chapters:
 - [x] chap 00 (no code): preface
@@ -25,7 +27,7 @@ chapters:
 - [x] chap 10: searching
 - [x] chap 11: sorting
 - [x] chap 12: divide &amp; conquer
-- [ ] chap 13: backtracking
+- [x] chap 13: backtracking
 - [ ] chap 14: dynamic programming
 - [x] chap 15: greedy algo
 - [x] chap 16 (no code): appendix
